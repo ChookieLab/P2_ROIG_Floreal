@@ -1,0 +1,75 @@
+        @import url("https://cdn.jsdelivr.net/gh/jgthms/minireset.css@master/minireset.min.css");
+        label {
+            display: block;
+            font: 1rem 'Fira Sans', sans-serif;
+        }
+        
+        @import url('https://fonts.googleapis.com/css2?family=Raleway:wght@100&display=swap');
+        body {
+            font-family: raleway, verdana, sans-serif;
+        }
+        /*Body*/
+        
+        Body {
+            background-color: #FFFF;
+        }
+        /*Header*/
+        
+        #Logo_Reservia {
+            display: row;
+        }
+        /*Header*/
+        /*Main*/
+        /*Recherche*/
+        
+        .recherche {
+            order: 2;
+            width: 100%;
+            float: right;
+            align-items: center;
+            justify-content: flex-end;
+            flex-wrap: wrap;
+        }
+        /*Recherche*/
+        /*Hebergements*/
+        /*Resultat Recherches*/
+        
+        .recherche {
+            order: 4;
+            width: 75%;
+            float: left;
+            background-color: #f2f2f2;
+            align-items: center;
+            justify-content: flex-end;
+            flex-wrap: wrap;
+        }
+        /*Resultat Recherches*/
+        /*Les Plus Populaires*/
+        
+        .populaires {
+            order: 3;
+            width: 25%;
+            float: right;
+            background-color: #F2F2F2;
+            display: flex;
+            flex-flow: column wrap;
+            align-items: center;
+            justify-content: flex-end
+        }
+        /*Les Plus Populaires*/
+        /*Hebergements*/
+        /*Activites*/
+        /*Activites*/
+        /*Main*/
+        /*Footer*/
+        
+        .footer {
+            width: 100%;
+            height: 100px;
+            background-color: #F2F2F2;
+            align-items: center;
+            justify-content: center;
+            flex-wrap: wrap;
+        }
+        /*Footer*/
+        /*Body*/
