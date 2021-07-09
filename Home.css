@@ -1,75 +1,134 @@
-        @import url("https://cdn.jsdelivr.net/gh/jgthms/minireset.css@master/minireset.min.css");
-        label {
-            display: block;
-            font: 1rem 'Fira Sans', sans-serif;
-        }
-        
-        @import url('https://fonts.googleapis.com/css2?family=Raleway:wght@100&display=swap');
-        body {
-            font-family: raleway, verdana, sans-serif;
-        }
-        /*Body*/
-        
-        Body {
-            background-color: #FFFF;
-        }
-        /*Header*/
-        
-        #Logo_Reservia {
-            display: row;
-        }
-        /*Header*/
-        /*Main*/
-        /*Recherche*/
-        
-        .recherche {
-            order: 2;
-            width: 100%;
-            float: right;
-            align-items: center;
-            justify-content: flex-end;
-            flex-wrap: wrap;
-        }
-        /*Recherche*/
-        /*Hebergements*/
-        /*Resultat Recherches*/
-        
-        .recherche {
-            order: 4;
-            width: 75%;
-            float: left;
-            background-color: #f2f2f2;
-            align-items: center;
-            justify-content: flex-end;
-            flex-wrap: wrap;
-        }
-        /*Resultat Recherches*/
-        /*Les Plus Populaires*/
-        
-        .populaires {
-            order: 3;
-            width: 25%;
-            float: right;
-            background-color: #F2F2F2;
-            display: flex;
-            flex-flow: column wrap;
-            align-items: center;
-            justify-content: flex-end
-        }
-        /*Les Plus Populaires*/
-        /*Hebergements*/
-        /*Activites*/
-        /*Activites*/
-        /*Main*/
-        /*Footer*/
-        
-        .footer {
-            width: 100%;
-            height: 100px;
-            background-color: #F2F2F2;
-            align-items: center;
-            justify-content: center;
-            flex-wrap: wrap;
-        }
-        /*Footer*/
-        /*Body*/
+@import url("https://cdn.jsdelivr.net/gh/jgthms/minireset.css@master/minireset.min.css");
+label {
+    display: block;
+    font: 1rem 'Fira Sans', sans-serif;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@100&display=swap');
+body {
+    font-family: raleway, verdana, sans-serif;
+    font-size: xx-small;
+}
+
+
+/*Body*/
+
+Body {
+    background-color: #FFFF;
+    Margin: 0;
+}
+
+h1 {
+    font-size: x-small;
+    font-weight: bold;
+    color: #00000;
+}
+
+h2 {
+    font-size: xx-small;
+    font-weight: bold;
+    color: #00000;
+}
+
+h3 {
+    font-size: xx-small;
+    color: #00000;
+}
+
+
+/*Header*/
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: x-small;
+}
+
+nav image {
+    height: 40;
+}
+
+ul {
+    display: flex;
+    list-style: none;
+    align-items: center;
+    align-content: flex-end;
+}
+
+nav li {
+    margin: 0 30px 60px;
+    weight: 100%
+}
+
+
+}
+
+}
+
+/*Header*/
+
+/*Main*/
+
+/*Recherche*/
+.recherche {
+    order: 2;
+    width: 100%;
+    float: right;
+    align-items: center;
+    justify-content: flex-end;
+    flex-wrap: wrap;
+}
+
+/*Recherche*/
+
+/*Hebergements*/
+
+/*Resultat Recherches*/
+.recherche {
+    order: 4;
+    width: 75%;
+    float: left;
+    background-color: #f2f2f2;
+    align-items: center;
+    justify-content: flex-end;
+    flex-wrap: wrap;
+}
+
+/*Resultat Recherches*/
+
+/*Les Plus Populaires*/
+.populaires {
+    order: 3;
+    width: 25%;
+    float: right;
+    background-color: #F2F2F2;
+    display: flex;
+    flex-flow: column wrap;
+    align-items: center;
+    justify-content: flex-end
+}
+
+/*Les Plus Populaires*/
+
+/*Hebergements*/
+
+/*Activites*/
+
+/*Activites*/
+
+/*Main*/
+
+/*Footer*/
+.footer {
+    width: 100%;
+    height: 100px;
+    background-color: #F2F2F2;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+/*Footer*/
+
+/*Body*/
