@@ -1,0 +1,897 @@
+@import url("https://cdn.jsdelivr.net/gh/jgthms/minireset.css@master/minireset.min.css");
+label {
+    display: block;
+    font: 1rem 'Fira Sans', sans-serif;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@100&display=swap');
+@media screen and (min-width: 771px) {
+    /*Body*/
+    body {
+        background-color: #FFFF;
+        Margin: 10 10px 10;
+        display: flex;
+        font-family: raleway, verdana, sans-serif;
+        margin: auto;
+        flex-flow: wrap;
+    }
+    .main-body {
+        margin: auto
+    }
+    /*Header*/
+    header a {
+        text-decoration: none;
+    }
+    header {
+        display: flex;
+        justify-content: space-between;
+        width: 100%;
+    }
+    .header-nav-ul2 {
+        font-size: x-small;
+        font-weight: bold;
+        color: #0065fc;
+        margin: 0Px 30px 0px 0px;
+    }
+    .header-nav-li-s_inscrire {
+        font-size: x-small;
+        font-weight: bold;
+        color: #0065fc;
+        margin: 15Px 30px 0px 0px;
+    }
+    header ul {
+        display: flex;
+        align-items: ;
+        border: 2px solid transparent;
+        padding: 14px;
+    }
+    header ul li {
+        margin-right: 20px;
+        border: 2px solid transparent;
+        padding: 14px;
+    }
+    nav li:hover {
+        color: #0065fc;
+        border-top-color: #0065fc;
+    }
+    /*Barre Recherche*/
+    .barre-recherche {
+        display: flex;
+        margin-top: 20px;
+        width: 100%;
+    }
+    div h1 {
+        font-size: small;
+        font-weight: bold;
+        color: black;
+    }
+    div h3 {
+        font-size: x-small;
+        color: black;
+        margin: 5px 0px 0px;
+    }
+    #form {
+        display: flex;
+    }
+    #localisation {
+        border: 1px solid #f2f2f2;
+        background-color: #f2f2f2;
+        border-radius: 20px 0 0 20px;
+        padding: 10px;
+    }
+    #ville::placeholder {
+        color: black;
+        font-weight: bold;
+    }
+    #research {
+        background-color: #0065fc;
+        color: white;
+        border: 1px solid #0065fc;
+        border-radius: 0 20px 20px 0;
+        padding: 0 30px 0 30px;
+    }
+    #research:hover {
+        cursor: pointer;
+        color: #DEEBFF;
+        border-top-color: #DEEBFF;
+    }
+    #loupe {
+        background-color: #0065fc;
+        color: white;
+        border: 1px solid #0065fc;
+        padding: 0 10px 0 10px;
+        border-radius: 10px;
+        display: none;
+    }
+    /*Filtres*/
+    .filtres {
+        display: flex;
+        align-items: center;
+        margin: 30px 10px 0px;
+        width: 100%;
+    }
+    .les_filtres {
+        display: flex;
+    }
+    .filtres h2 {
+        font-size: x-small;
+        font-weight: bold;
+        color: black;
+        margin: 0 30 px 0;
+    }
+    .filtres h2 {
+        margin-right: 30px;
+    }
+    .filtres a {
+        text-decoration: none;
+    }
+    .icones {
+        display: flex;
+        align-items: center;
+        border: 5px solid #f2f2f2;
+        border-radius: 100px;
+        height: 40px;
+        padding-right: 3px;
+        margin-right: 10px;
+        text-decoration: none;
+    }
+    .icones i {
+        color: #0065fc;
+        border: 5px solid #deebff;
+        background-color: #deebff;
+        border-radius: 100px;
+        width: 40px;
+        height: 40px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-right: 10px;
+        text-decoration: none;
+    }
+    .icone a:hover {
+        text-shadow: 2px 2px 5px grey;
+        color: #0065fc;
+    }
+    .les-infos {
+        width: 100%;
+    }
+    .info {
+        display: flex;
+        align-items: center;
+        width: 100%;
+    }
+    .info i {
+        color: #0065fc;
+        margin-right: 15px;
+        border: 1px solid #f2f2f2;
+        padding: 40px 10px 20px 10px;
+        border-radius: 100px;
+    }
+    /*Hebergements*/
+    /*Resultats Recherches*/
+    .titre_h1 h1 {
+        font-size: small;
+        font-weight: bold;
+        color: black;
+        margin: 10px 10px -30px -15px;
+    }
+    .photo_hebergement a {
+        text-decoration: none;
+    }
+    .photo_hebergement {
+        margin: 0px 10px 10px 10px;
+    }
+    .descriptif_hebergement h6 {
+        font-size: xx-small;
+        font-weight: bold;
+        color: black;
+        margin: 0px 2px 0px 10px;
+    }
+    .descriptif_hebergement h3 {
+        font-size: xx-small;
+        font-weight: normal;
+        color: black;
+        margin: 5px 2px 0px 7px;
+    }
+    .prix {
+        font-weight: bold;
+        text-decoration: none;
+    }
+    .stars {
+        font-size: 0.7em;
+        color: #0065fc;
+        text-decoration: none;
+    }
+    .blue {
+        color: #0065fc;
+    }
+    .empty {
+        color: #f2f2f2;
+    }
+    .hebergements {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        width: 100%;
+    }
+    .section_hebergement {
+        border: 1px solid #f2f2f2;
+        background-color: #f2f2f2;
+        border-radius: 20px;
+        width: 65%;
+        padding: -10px 40px 20px 40px;
+    }
+    .block_hebergement_1,
+    .block_hebergement_2 {
+        display: flex;
+        justify-content: space-around;
+    }
+    .hebergement img {
+        width: 220px;
+        height: 100px;
+        border-radius: 15px 15px 0 0;
+        object-fit: cover;
+    }
+    .descriptif_hebergement img {
+        width: 220px;
+        height: 100px;
+        border-radius: 15px 15px 0 0;
+        object-fit: cover;
+    }
+    .titre_image,
+    .prix,
+    .stars {
+        line-height: 15 px;
+        margin-left: 3px;
+        margin-top: 5px;
+    }
+    .descriptif_hebergement {
+        border: 1px solid white;
+        background-color: white;
+        border-radius: 15px;
+        padding: 5px 2px 10px 5px;
+        margin-bottom: 0px;
+        box-shadow: 0 0 10px #b4b3b3;
+    }
+    .photo_hebergement {
+        padding: 10px 5px 10px 5px;
+    }
+    .descriptif_hebergement:hover {
+        box-shadow: 5px 5px 5px #0065fc;
+    }
+    .afficher h6 {
+        font-size: x-small;
+        font-weight: bold;
+        color: black;
+        margin: 20px 0px 20px 20px;
+    }
+    .afficher a {
+        text-decoration: none;
+    }
+    /*Les Plus Populaires*/
+    .main {
+        display: flex;
+        justify-content: flex-start;
+        width: 32%;
+    }
+    .section_pop {
+        margin-top: 15px;
+        border: 1px solid #f2f2f2;
+        background-color: #f2f2f2;
+        border-radius: 20px;
+        width: 32%;
+        padding: 50px 40px 5px 40px;
+    }
+    .titre_h1_pop {
+        display: flex;
+        justify-content: space-between;
+        margin-left: 0px;
+        padding: 0px 0px 30px 0px;
+    }
+    .titre_h1_pop h1 {
+        font-size: small;
+        font-weight: bold;
+        color: black;
+    }
+    .carte_populaire a {
+        text-decoration: none;
+    }
+    .populaire img {
+        width: 120px;
+        height: 120px;
+        border-radius: 15px 0 0 15px;
+        object-fit: cover;
+    }
+    .photo_populaire {
+        display: flex;
+        border: 2px solid white;
+        background-color: white;
+        border-radius: 15px;
+        padding: 2px 10px 2px 2px;
+        margin-bottom: 30px;
+        box-shadow: 0 0 10px #b4b3b3;
+    }
+    .photo_populaire:hover {
+        box-shadow: 5px 5px 5px #0065fc;
+    }
+    .descriptif h6 {
+        font-size: xx-small;
+        font-weight: bold;
+        color: black;
+        margin: 0px 0px 0px 25px;
+    }
+    .descriptif h3 {
+        font-size: xx-small;
+        font-weight: normal;
+        color: black;
+        margin: 5px 0px 0px 5px;
+    }
+    .titre_image2,
+    .prix2 {
+        padding: 5px 0px 0px 0px;
+        margin-left: 20px;
+        line-height: 20px;
+    }
+    .stars2 h3 {
+        padding: 20px 0px 0px 20px;
+    }
+    /*Les Plus Populaires*/
+    /*Hebergements*/
+    /*Activites*/
+    .activites {
+        width: 100%;
+        justify-content: space-around;
+        margin: 50px 0px 0px 0px;
+    }
+    .titre_h1 {
+        padding: 50px 10px 50px 30px;
+    }
+    .activites-block h6 {
+        font-size: xx-small;
+        font-weight: bold;
+        color: black;
+        padding: 15px 0px 15px 20px;
+    }
+    .activites-block {
+        display: flex;
+        width: 100%;
+        justify-content: space-around;
+        flex-flow: nowrap;
+    }
+    .activites-paysages {
+        display: flex;
+        flex-flow: nowrap;
+        list-style-type: none;
+        flex-direction: column;
+    }
+    .vignette-activites-1 img,
+    .vignette-activites-4 img {
+        width: 270px;
+        height: 350px;
+        border-radius: 15px 15px 15px 15px;
+        margin: 0px 0px 0px 0px;
+        justify-content: space-around;
+    }
+    .vignette-activites-1,
+    .vignette-activites-4 {
+        border-radius: 15px 15px 15px 15px;
+        background-color: white;
+        margin: 0px 0px 0px 0px;
+        box-shadow: 0px 1px 1px 0px #b4b3b3;
+    }
+    .vignette-activites-2 img,
+    .vignette-activites-3 img,
+    .vignette-activites-5 img,
+    .vignette-activites-6 img {
+        width: 270px;
+        height: 128px;
+        border-radius: 15px 15px 15px 15px;
+        background-color: white;
+        margin-bottom: 0px;
+    }
+    .vignette-activites-2,
+    .vignette-activites-3,
+    .vignette-activites-5,
+    .vignette-activites-6 {
+        border-radius: 15px 15px 15px 15px;
+        background-color: white;
+        border-radius: 15px;
+        padding: 2px 2px 2px 2px;
+        margin: 2px 30px 30px 30px;
+        box-shadow: 0px 1px 1px 0px #b4b3b3;
+    }
+    .vignette-activites-1:hover,
+    .vignette-activites-2:hover,
+    .vignette-activites-3:hover,
+    .vignette-activites-4:hover,
+    .vignette-activites-5:hover,
+    .vignette-activites-6:hover {
+        box-shadow: 5px 5px 5px #0065fc;
+    }
+    .activites img {
+        border-radius: 15px 15px 0 0;
+        object-fit: cover;
+    }
+    /*Main*/
+    /*Footer*/
+    footer {
+        background-color: #f2f2f2;
+        display: flex;
+        justify-content: space-around;
+        width: 100%;
+    }
+    .colonne-footer {
+        list-style-type: none;
+        flex-direction: column;
+        margin: 30px 0px 30px;
+        width: 100%;
+    }
+    footer a:hover {
+        text-shadow: 2px 2px 5px grey;
+        color: #0065fc;
+    }
+    footer h2 {
+        font-size: x-small;
+        font-weight: bold;
+        color: black;
+        margin: 20px 0px 20px;
+        margin-left: 40px;
+    }
+    footer h3 {
+        font-size: xx-small;
+        color: black;
+        margin: 20px 0px 20px;
+        margin-left: 40px;
+        margin-bottom: 10px;
+    }
+    /*Footer*/
+    /*Body*/
+}
+
+
+/*Media queries*/
+
+
+/*-------------------------------- Media Queries ------------------------------------*/
+
+
+/*----- Écran max 360px -----*/
+
+@media screen and (max-width: 770px) {
+    body {
+        background-color: #FFFF;
+        Margin: 10 10px 10;
+        display: flex;
+        font-family: raleway, verdana, sans-serif;
+        margin: auto;
+        flex-flow: wrap;
+    }
+    .main-body {
+        margin: auto
+    }
+    /*Header*/
+    header a {
+        text-decoration: none;
+    }
+    header {
+        display: flex;
+        width: 100%
+    }
+    header h4 {
+        font-size: x-small;
+        font-weight: normal;
+        color: #0065fc;
+        margin: 5px 20px 5px 40px;
+    }
+    header img {
+        position: absolute;
+        top: 20px;
+        left: 20px;
+    }
+    .header-nav-li-s_inscrire {
+        position: absolute;
+        top: 30px;
+        right: -5px;
+    }
+    .header-nav-ul2 {
+        padding: 100px 0px 0px 0px
+    }
+    .header-nav-ul2 {
+        display: flex;
+        align-content: flex-start;
+    }
+    header ul li {
+        border: 2px solid transparent;
+    }
+    nav li:hover {
+        color: #0065fc;
+        border-bottom-color: #0065fc;
+    }
+    /*Barre Recherche*/
+    .barre-recherche {
+        display: flex;
+        margin-top: 20px;
+        margin: 40px 10px 40px 15px;
+        width: 100%;
+    }
+    div h1 {
+        font-size: x-small;
+        font-size: small;
+        font-weight: bold;
+        color: black;
+        margin: 20px 10px 20px 15px;
+    }
+    div h3 {
+        font-size: xx-small;
+        color: black;
+        margin: 20px 5px 20px 15px;
+    }
+    #form {
+        display: flex;
+    }
+    #localisation {
+        border: 1px solid #f2f2f2;
+        background-color: #f2f2f2;
+        border-radius: 15px 0 0 15px;
+        padding: 10px;
+    }
+    #ville {
+        border-color: transparent;
+    }
+    #ville::placeholder {
+        color: black;
+        font-weight: bold;
+    }
+    #research {
+        display: none;
+    }
+    #loupe {
+        background-color: #0065fc;
+        color: white;
+        border: 1px solid #0065fc;
+        padding: 0 10px 0 10px;
+        border-radius: 15px;
+        display: block;
+    }
+    /*Filtres*/
+    .filtres {
+        margin: 30px 10px 0px;
+        width: 100%;
+    }
+    .les_filtres {
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .filtres h2 {
+        font-size: x-small;
+        font-weight: bold;
+        color: black;
+        margin: 10px 5px 10px 5px;
+    }
+    .icone h2 {
+        font-size: x-small;
+        font-weight: bold;
+        color: black;
+        margin: 60px 5px 60px 0px;
+        padding: 10px 0px 10px 0px;
+    }
+    .filtres a {
+        text-decoration: none;
+    }
+    .icones {
+        display: flex;
+        align-items: center;
+        border: 3px solid #f2f2f2;
+        border-radius: 100px;
+        height: 50px;
+        padding-right: 3px;
+        margin-right: 10px;
+        padding: 20px 0px 20px 0px;
+        text-decoration: none;
+    }
+    .icones i {
+        color: #0065fc;
+        border: 1px solid #deebff;
+        background-color: #deebff;
+        border-radius: 100px;
+        width: 50px;
+        height: 50px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-right: 10px;
+        text-decoration: none;
+    }
+    .icone {
+        padding: 5px 0px 5px 0px;
+    }
+    .icone a:hover {
+        text-shadow: 2px 2px 5px grey;
+        color: #0065fc;
+    }
+    .les-infos h3 {
+        font-size: xx-small;
+        color: black;
+        margin: 20px 5px 20px 15px;
+    }
+    .info {
+        display: flex;
+        align-items: center;
+        width: 100%;
+    }
+    .info i {
+        color: #0065fc;
+        border: 1px solid #f2f2f2;
+        padding: 20px 10px 0px 10px;
+        border-radius: 50px;
+    }
+    .les-infos {
+        padding: 0px 20px 20px 0px;
+    }
+    /*Hebergements*/
+    .hebergements {
+        display: flex;
+        width: 100%;
+        flex-direction: column-reverse;
+    }
+    /*Les Plus Populaires*/
+    .aside {
+        display: flex;
+        width: 100%;
+    }
+    .main {
+        display: flex;
+        width: 100%;
+        flex-direction: column;
+    }
+    .section_pop {
+        margin-top: 15px;
+        border: 1px solid #f2f2f2;
+        background-color: #f2f2f2;
+        width: 100%;
+        padding: 0px 15px 30px 15px;
+    }
+    .titre_h1_pop {
+        display: flex;
+        justify-content: space-between;
+        margin-left: -10px;
+        padding: 30px 0px 15px 0px;
+    }
+    .titre_h1_pop h1 {
+        font-size: small;
+        font-weight: bold;
+        color: black;
+    }
+    .titre_h1_pop i {
+        font-size: small;
+        font-weight: bold;
+        color: black;
+        padding: 20px 15px 15px 0px;
+    }
+    .carte_populaire a {
+        text-decoration: none;
+    }
+    .populaire img {
+        width: 130px;
+        height: 130px;
+        border-radius: 15px 0 0 15px;
+        object-fit: cover;
+    }
+    .photo_populaire {
+        display: flex;
+        border: 2px solid white;
+        background-color: white;
+        border-radius: 15px;
+        padding: 2px 10px 2px 2px;
+        margin-bottom: 10px;
+        box-shadow: 0 0 10px #b4b3b3;
+    }
+    .photo_populaire:hover {
+        box-shadow: 5px 5px 5px #0065fc;
+    }
+    .descriptif h3 {
+        font-size: xx-small;
+        margin: 10px 0px 0px 20px;
+        font-weight: normal;
+    }
+    .descriptif h6 {
+        font-size: xx-small;
+        margin: 10px 0px 0px 20px;
+        font-weight: bold;
+    }
+    .stars2 {
+        margin: 30px 0px 0px 0px;
+        margin-bottom: 0px;
+    }
+    br {
+        display: none;
+    }
+    /*Resultats Recherches*/
+    .section_hebergement {
+        display: flex;
+        flex-direction: column;
+        margin-top: 0px;
+        background-color: white;
+        width: 100%;
+        padding: 0px 0px 0px 0px;
+    }
+    .block_hebergement_1,
+    .block_hebergement_2 {
+        display: flex;
+        flex-direction: column;
+    }
+    .titre_h1 h1 {
+        font-size: small;
+        font-weight: bold;
+        color: black;
+        margin: 40px 10px 10px 30px;
+    }
+    .photo_hebergement a {
+        text-decoration: none;
+    }
+    .photo_hebergement {
+        margin: 15px 15px 0px 15px;
+    }
+    .descriptif_hebergement h6 {
+        font-size: x-small;
+        font-weight: bold;
+        color: black;
+        margin: 5px 0px 5px 15px;
+    }
+    .nuit {
+        font-weight: bold;
+        text-decoration: none;
+        margin: -15px 0px -15px 0px;
+    }
+    .stars {
+        font-size: 0.7em;
+        color: #0065fc;
+        margin: 0px 0px 0px 0px;
+        text-decoration: none;
+    }
+    .blue {
+        color: #0065fc;
+    }
+    .empty {
+        color: #f2f2f2;
+    }
+    .hebergement {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+    }
+    .hebergement img {
+        width: 100%;
+        height: 100px;
+        border-radius: 15px 15px 0 0;
+        object-fit: cover;
+    }
+    .descriptif_hebergement img {
+        width: 100%;
+        height: 100px;
+        border-radius: 15px 15px 0 0;
+    }
+    .descriptif_hebergement {
+        border: 1px solid white;
+        background-color: white;
+        border-radius: 15px;
+        padding: 0px 0px 0px 0px;
+        margin-bottom: 0px;
+        box-shadow: 0 0 10px #b4b3b3;
+    }
+    .photo_hebergement {
+        padding: 5px 0px 5px 0px;
+    }
+    .descriptif_hebergement:hover {
+        box-shadow: 5px 5px 5px #0065fc;
+    }
+    .afficher a {
+        font-size: x-small;
+        font-weight: bold;
+        color: black;
+        text-decoration: none;
+    }
+    .afficher {
+        margin: 20px 0px 20px 5px;
+    }
+    /*Activites*/
+    .activites {
+        display: flex;
+        flex-direction: column;
+        margin-left: 0px;
+        padding: 0px 15px 30px 15px;
+    }
+    .titre_h1 {
+        margin-left: -25px;
+        padding: 10px 0px 0px 0px;
+    }
+    h6 {
+        font-size: xx-small;
+        font-weight: bold;
+        color: black;
+        margin: 15px 5px 15px 10px;
+    }
+    .activites-block,
+    .activites-paysages {
+        display: flex;
+        flex-flow: nowrap;
+        list-style-type: none;
+        flex-direction: column;
+    }
+    .vignette-activites-2 img,
+    .vignette-activites-3 img,
+    .vignette-activites-5 img,
+    .vignette-activites-6 img,
+    .vignette-activites-1 img,
+    .vignette-activites-4 img {
+        width: 100%;
+        height: 130px;
+        border-radius: 15px 15px 15px 15px;
+        background-color: white;
+        margin-bottom: 0px;
+    }
+    .vignette-activites-1,
+    .vignette-activites-4,
+    .vignette-activites-2,
+    .vignette-activites-3,
+    .vignette-activites-5,
+    .vignette-activites-6 {
+        background-color: white;
+        border-radius: 15px;
+        padding: 2px 2px 2px 2px;
+        margin-bottom: 30px;
+        box-shadow: 2px 2px 2px 2px #b4b3b3;
+    }
+    .vignette-activites-1:hover,
+    .vignette-activites-2:hover,
+    .vignette-activites-3:hover,
+    .vignette-activites-4:hover,
+    .vignette-activites-5:hover,
+    .vignette-activites-6:hover {
+        box-shadow: 5px 5px 5px #0065fc;
+    }
+    .activites img {
+        border-radius: 15px 15px 0px 0px;
+        object-fit: cover;
+    }
+    /*Footer*/
+    footer {
+        background-color: #f2f2f2;
+        display: flex;
+        flex-direction: column;
+        align-content: center;
+        width: 100%;
+    }
+    .colonne-footer {
+        display: flex;
+        list-style-type: none;
+        flex-direction: column;
+        align-content: center;
+        margin: 10px 0px 10px;
+        width: 100%;
+    }
+    footer a:hover {
+        text-shadow: 2px 2px 5px grey;
+        color: #0065fc;
+    }
+    footer h2 {
+        font-size: x-small;
+        font-weight: bold;
+        color: black;
+        margin: 30px 0px 20px;
+        margin-left: 25px;
+    }
+    footer h3 {
+        font-size: x-small;
+        color: black;
+        margin: 0px 0px 0px;
+        margin-left: 25px;
+        margin-bottom: 10px;
+    }
+}
+
+
+/*Footer*/
+
+
+/*Body*/
